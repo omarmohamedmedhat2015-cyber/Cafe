@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cold coffee</title>
+    <link rel="stylesheet" href="cafe.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            cafe royale
+        </div>
+        <nav>
+            <ul>
+                <li><a href="cafe.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <section class="menuContainer">
+        <h2 class="menutitle">cold coffee menu</h2>
+        <div class="menu">
+            <div class="menu-item"> <img
+                    src="https://www.forkinthekitchen.com/wp-content/uploads/2022/07/220629.iced_.latte_.vanilla-8882.jpg">
+                <span class="name">iced Latte</span> <span class="dots"></span> <span class="price">60 EGP</span>
+                <button onclick="addToCart('iced Latte',60)">+</button> </div>
+            <div class="menu-item"> <img
+                    src="https://tse3.mm.bing.net/th/id/OIP.IgSELNQvQIP8PsgeYiEqewHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+                <span class="name">iced cuppachino</span> <span class="dots"></span> <span class="price">70 EGP</span>
+                <button onclick="">+</button>
+            </div>
+            <div class="menu-item"> <img src="https://kitchenpedia.org/wp-content/uploads/2025/01/Iced_Americano.jpg">
+                <span class="name">iced americano</span> <span class="dots"></span> <span class="price">70 EGP</span>
+                <button onclick="">+</button>
+            </div>
+            <div class="menu-item"> <img
+                    src="https://tse4.mm.bing.net/th/id/OIP.qNkR8HYsIU3HZfp0uLxNSAHaJ4?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+                <span class="name">iced mocha</span> <span class="dots"></span> <span class="price">65 EGP</span>
+                <button onclick="">+</button>
+            </div>
+            <div class="menu-item"> <img
+                    src="https://thegirlonbloor.com/wp-content/uploads/2025/05/Iced-latte-hero.jpg"> <span
+                    class="name">cold brew Latte</span> <span class="dots"></span> <span class="price">62 EGP</span>
+                <button onclick="addToCart('brew latte',62)">+</button> </div>
+            <div class="menu-item"> <img
+                    src="https://tse4.mm.bing.net/th/id/OIP.2feRVEx4cO0c4FPOxKIzXAHaJU?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+                <span class="name">Iced esspresso</span> <span class="dots"></span> <span class="price">75 EGP</span>
+                <button onclick="addToCart('Irish Coffee',75)">+</button>
+            </div>
+            <div class="menu-item"> <img
+                    src="https://th.bing.com/th/id/R.128313b8fce23ab4dea911e2fb8a68ac?rik=s3V6lSg7JOD37A&riu=http%3a%2f%2ffoodisafourletterword.com%2fwp-content%2fuploads%2f2022%2f02%2fGreek_Frappe_Coffee_Recipe.jpg&ehk=QZPk%2fFqc3dNDS6jXNq0ZW474SgWkZG9aMqVfsjTVRKQ%3d&risl=&pid=ImgRaw&r=0">
+                <span class="name">Frappe</span> <span class="dots"></span> <span class="price">45 EGP</span>
+                <button onclick="addToCart('Turkish Coffee',45)">+</button>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script src="cafe.js"></script>
+</body>
+
+</html>

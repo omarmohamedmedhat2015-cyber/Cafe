@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hot coffee</title>
+    <link rel="stylesheet" href="cafe.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            cafe royale
+        </div>
+        <nav>
+            <ul>
+                <li><a href="cafe.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <section class="menuContainer">
+        <h2 class="menutitle">Hot coffee menu</h2>
+        <div class="menu">
+            <div class="menu-item"> <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735"> <span
+                    class="name">Latte</span> <span class="dots"></span> <span class="price">60 EGP</span> <button
+                    onclick="addToCart('Latte',60)">+</button> </div>
+            <div class="menu-item"> <img
+                    src="https://tse2.mm.bing.net/th/id/OIP.Pe-S01F7qQmyT8Md6QyK_wHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
+                <span class="name">cuppachino</span> <span class="dots"></span> <span class="price">70 EGP</span>
+                <button onclick="addToCart('cuppachino',70)">+</button>
+            </div>
+            <div class="menu-item"> <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd">
+                <span class="name">americano</span> <span class="dots"></span> <span class="price">70 EGP</span>
+                <button onclick="addToCart('americano',70)">+</button>
+            </div>
+            <div class="menu-item"> <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d">
+                <span class="name">mocha</span> <span class="dots"></span> <span class="price">65 EGP</span>
+                <button onclick="addToCart('mocha',65)">+</button>
+            </div>
+            <div class="menu-item"> <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772"> <span
+                    class="name">Flat White</span> <span class="dots"></span> <span class="price">62 EGP</span> <button
+                    onclick="addToCart('Flat White',62)">+</button> </div>
+            <div class="menu-item"> <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93"> <span
+                    class="name">Irish Coffee</span> <span class="dots"></span> <span class="price">75 EGP</span>
+                <button onclick="addToCart('Irish Coffee',75)">+</button>
+            </div>
+            <div class="menu-item"> <img src="https://images.unsplash.com/photo-1459755486867-b55449bb39ff"> <span
+                    class="name">Turkish Coffee</span> <span class="dots"></span> <span class="price">90 EGP</span>
+                <button onclick="addToCart('Turkish Coffee',90)">+</button>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script src="cafe.js"></script>
+</body>
+
+</html>

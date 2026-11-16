@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0f0f14;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 50px ;
+    background-color: #2b201a;
+}
+.logo{
+font-size: 36px;
+font-weight: bold;
+color:#e6ce9c ;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+ nav a{
+text-decoration:none;
+color: white;
+}
+nav a :hover{
+    color:c89b3c ;
+}
+.hero{
+    height: 90vh;
+    background: url(https://images.unsplash.com/photo-1495474472287-4d71bcdd2085) no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left:30px ;
+}
+.cards{
+    display: flex;
+   justify-content: center;
+   gap: 35px;  
+}
+.card{
+border: 5px solid #382e22;
+border-radius: 10px;
+font-size: 15px;
+width: 150px;
+ background-color: #1a1a22;
+}
+.card img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+}
+.categories{
+    text-align: center;
+    padding: 50px;
+}
+.categories h2{
+    margin-bottom: 40px;
+}
+
+.menuContainer {
+    background-color: #1a1a22;
+    max-width: 650px;
+    padding: 20px 15px;
+    margin: 60px auto;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.menutitle {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(227, 163, 46)
+}
+
+p {
+    display: flex;
+}
+
+.addBtn {
+    background-color: rgb(250, 169, 20);
+    color: rgb(53, 39, 13);
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+}
+
+.menu-item img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #382e22;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.name {
+    width: 140px;
+    font-weight: 500;
+}
+
+.dots {
+    flex: 1;
+    border-bottom: 1px dotted #666;
+    margin: 0 8px;
+}
+
+.price {
+    color: #c89b3c;
+    font-weight: bold;
+    width: 80px;
+    text-align: right;
+}
+
+button {
+    background: #c89b3c;
+    border: none;
+    padding: 4px 9px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.Price{
+    color: #c89b3c;
+}
+.b{
+    margin: 30px auto;
+    padding: 10px;
+    display: block;
+    font-size: 16px;
+    border:4px rgba(165, 42, 42, 0.384) solid;
+}
+.check{
+    align-items: center;
+    color: #0f0f14;
+    justify-content: center;
+    border: 10px  #1a1a22 solid;
+    width: 400px;
+    height: 65pxpx;
+    margin-left: 465px;
+    margin-top: 150px;
+    border-radius: 20px;
+    background-color: #c89b3c;
+    box-shadow: #666;
+    text-align: center;
+}
+.body-checkout{
+    padding: 100px;
+    align-items: center;
+}
+.paragraph{
+    padding: 7px;
+    font-size: 20px;
+}
