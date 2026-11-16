@@ -4,13 +4,14 @@
 A beautiful and modern cafe website created using HTML, CSS, and JavaScript.
 
 ## Project Files
-1. index.html
-2. style.css
-3. script.js
-4. about.html
-5. menu.html
-6. contact.html
-7. README.md
+1. cafe.html
+2. cafe.css
+3. cafe.js
+4. cold.html
+5. hot.html
+6. deserts.html
+7. cart.html
+8. README.md
 
 ## Technologies
 - HTML5
